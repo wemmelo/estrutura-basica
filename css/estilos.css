@@ -1,20 +1,16 @@
-.caixa1{
-    background-color: blue;
-    color: white;
+.nome{
+    /*color:#f00;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;*/
+    font: italic bold 24px arial,sans-serif;
+    text-align: center;
 }
-.caixa2{
-    background-color: rgb(255, 0, 0);
-    color: rgb(0, 0, 0);
-}
-.caixa3{
-    background-color: rgb(255, 200, 0);
-    color: rgb(255, 255, 255);
-}
-.caixa4{
-    background-color: #ffc800;
-    color: #ddff00;
-}
-.caixa5{
-    background-color: #df0;
+.segmento{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
     color: #000;
+    text-decoration: underline;
+    text-align: center;
 }
