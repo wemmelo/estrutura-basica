@@ -1,32 +1,13 @@
-/*seletor de tipo/elemento/tag
-h1 {
-color:blue;
-font-family: Arial;
-} 
-p {
-color:red;
-}
-strong{
-color:green;
+/*
+.missao strong{
+    color: red;
 }
 */
-
-
-/*Nos dois casos abaixo eu posso chamar o seletor especifico tipo:p#titulo ou aplicar direto em todos
-os ID titulo tipo:#titulo. Posso fase o mesmo para as classes.*/
-
-/*seletor de ID*/
-#titulo, .missao{
+/*
+article strong{
     color: blue;
 }
-
-/*compartilhamento de atributos por agrupamento de seletores
-
-/*seletor de classe css*/
-.destaque, .missao {
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
+*/
+article .missao strong{
+    color: green;
 }
-
-
-
