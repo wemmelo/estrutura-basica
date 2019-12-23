@@ -1,13 +1,8 @@
 /*
-.missao strong{
+article > .importante {
     color: red;
 }
 */
-/*
-article strong{
-    color: blue;
-}
-*/
-article .missao strong{
-    color: green;
+article .importante > strong {
+    color: red;
 }
