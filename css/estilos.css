@@ -2,41 +2,21 @@ body{
     font-size: 32px;
 }
 
-.nome-empresa{
-    background-color: pink;
-}
+a{
+    /*border-width: thick;
+    border-color: red;
+    border-style: dotted;*/
 
-.segmento-empresa{
-    background-color: red;
+    /*shorthand atalho para toda as propriedades acima*/
+    border: thick blue solid;
+    border-bottom: 5px dotted #0f0;
+    border-right: 10px dashed red;
 }
-
-.curso-html{
-    background-color: #00dd00;
-}
-
-.curso-css{
-    background-color: #fdff11;
-}
-
-.curso-java{
-    background-color: #00dddd;
-}
-
-.curso-bootstrap{
-    background-color: #ee00da;
-}
-
-.nome-empresa, .segmento-empresa{
-    display: block;
-     height: 100px;
-    width: 300px;
-}
-.curso-html, .curso-css{
-    display: inline;
-}
-.curso-java, .curso-bootstrap{
-    display: inline-block;
-    height: 100px;
-    height: 300px;
+p{
     text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: #ccc;
 }
